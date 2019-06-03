@@ -3,16 +3,22 @@
     ViewData["Title"] = "Main Menu";
 }
 <p>Welcome, @Html.DisplayNameFor(model => model.Username)</p>
+
 <div class="text-center">
     <h1 class="display-4">Main Menu</h1>
 
-    <form action="User/Login">
+    <form action="https://localhost:44313/Location/Select">
         <input type="submit" value="Place Order" />
     </form>
-    <form action="User/Create">
+    <p></p>
+    <form action="https://localhost:44313/Order/Index">
         <input type="submit" value="View Order History" />
     </form>
+    <p></p>
     <form action="https://localhost:44313/">
         <input type="submit" value="Logout" />
     </form>
+</div>
+<div>
+    <a asp-action="Index">Show Locations</a>
 </div>

@@ -12,12 +12,16 @@ namespace PizzaBox.Web.Controllers
     {
         private readonly IUserRepository db;
         public User CurrentUser;
+        
+
         public UserController(IUserRepository db)
         {
             this.db = db;
         }
         Models.User u;
         List<Models.User> userList = new List<Models.User>();
+
+        //public HttpContext Context => context;
 
         public ActionResult Index()
         {
@@ -63,6 +67,7 @@ namespace PizzaBox.Web.Controllers
                     if (dtu.Password == dmu.Password)
                     {
                         CurrentUser = dmu;
+                        //HttpContext.Session("Username") = dmu.Username;
                         return RedirectToRoute(new { controller = "Home", action = "MainMenu" });
                     }
                     ModelState.AddModelError("Password", "Username and/or password are incorrect");
