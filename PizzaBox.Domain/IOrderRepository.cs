@@ -13,5 +13,7 @@ namespace PizzaBox.Domain
         List<Order> GetOrdersByUser(string username);
         List<Order> GetOrdersByLocation(int locationid);
         Order GetOrder(int id);
+        decimal ComputeOrderCost(Order order);
+        void Save();
     }
 }
