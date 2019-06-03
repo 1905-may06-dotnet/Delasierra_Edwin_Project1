@@ -6,12 +6,18 @@ using System.Linq;
 
 namespace PizzaBox.Data
 {
-    public class UserRepository : IUserRepository, IOrderRepository
+    public class UserRepository : IUserRepository, IOrderRepository, ILocationRepository
     {
         private readonly Model.PizzaContext _db;
         public UserRepository(Model.PizzaContext db)
         {
             _db = db;
+        }
+
+        public void AddLocation(Location location)
+        {
+            _db.Location.Add(Mapper.Map(location));
+            Save();
         }
 
         public void AddOrder(PizzaBox.Domain.Order order)
@@ -26,6 +32,23 @@ namespace PizzaBox.Data
             Save();
         }
 
+        public decimal ComputeOrderCost(PizzaBox.Domain.Order order)
+        {
+            var list = order.pizzas;
+            decimal cost = 0;
+            foreach (PizzaBox.Domain.Pizza pizza in list)
+            {
+                cost += pizza.cost;
+            }
+            return cost;
+        }
+
+        public void DeleteLocation(int id)
+        {
+            _db.Location.Remove(_db.Location.Find(id));
+            Save();
+        }
+
         public void DeleteOrder(int id)
         {
             _db.Orders.Remove(_db.Orders.Find(id));
@@ -36,6 +59,15 @@ namespace PizzaBox.Data
         {
             _db.Users.Remove(_db.Users.Find(username));
             Save();
+        }
+
+        public void EditLocation(Location location)
+        {
+            if (_db.Location.Find(location.locationID) != null)
+            {
+                _db.Location.Update(Mapper.Map(location));
+                Save();
+            }
         }
 
         public void EditOrder(Order order)
@@ -56,6 +88,11 @@ namespace PizzaBox.Data
             }
         }
 
+        public IEnumerable<Location> GetAllLocations()
+        {
+            return _db.Location.Select(x => Mapper.Map(x));
+        }
+
         public IEnumerable<Order> GetAllOrders()
         {
             return _db.Orders.Select(x => Mapper.Map(x));
@@ -66,9 +103,24 @@ namespace PizzaBox.Data
             return _db.Users.Select(x => Mapper.Map(x));
         }
 
+        public Location GetLocation(int id)
+        {
+            var element = _db.Location.Where(a => a.Id == id).FirstOrDefault();
+
+            if (element != null)
+                return Mapper.Map(element);
+            else
+                return null;
+        }
+
         public Order GetOrder(int id)
         {
-            throw new NotImplementedException();
+            var element = _db.Orders.Where(a => a.Id == id).FirstOrDefault();
+
+            if (element != null)
+                return Mapper.Map(element);
+            else
+                return null;
         }
 
         public List<Order> GetOrdersByLocation(int locationid)
@@ -87,7 +139,30 @@ namespace PizzaBox.Data
 
         public List<Order> GetOrdersByUser(string username)
         {
-            throw new NotImplementedException();
+            var orders = GetAllOrders();
+            List<Order> userOrders = new List<Order>();
+            foreach (Order order in orders)
+            {
+                if (order.userId == username)
+                    userOrders.Add(order);
+            }
+            if (userOrders.Count == 0)
+                return null;
+            return userOrders;
+        }
+
+        public decimal GetTotalSales(Location location)
+        {
+            var orders = GetAllOrders();
+            decimal sales = 0;
+            foreach (Order order in orders)
+            {
+                if (order.locationId == location.locationID)
+                {
+                    sales += order.totalCost;
+                }
+            }
+            return sales;
         }
 
         public User GetUser(string username)

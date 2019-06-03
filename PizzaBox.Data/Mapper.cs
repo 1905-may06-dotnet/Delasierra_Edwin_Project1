@@ -38,5 +38,28 @@ namespace PizzaBox.Data
             userId = order.User.Username,
             totalCost = order.Totalcost
         };
+
+        public static PizzaBox.Data.Model.Location Map(PizzaBox.Domain.Location location)
+        {
+            PizzaBox.Data.Model.Location dataLocation = new Model.Location();
+            dataLocation.Id = location.locationID;
+            dataLocation.Name = location.name;
+            dataLocation.Street1 = location.street1;
+            dataLocation.Street2 = location.street2;
+            dataLocation.City = location.city;
+            dataLocation.State = location.state;
+            dataLocation.Zipcode = location.zipcode;
+            return dataLocation;
+        }
+        public static PizzaBox.Domain.Location Map(PizzaBox.Data.Model.Location location) => new PizzaBox.Domain.Location
+        {
+            locationID = location.Id,
+            name = location.Name,
+            street1 = location.Street1,
+            street2 = location.Street2,
+            city = location.City,
+            state = location.State,
+            zipcode = location.Zipcode
+        };
     }
 }
