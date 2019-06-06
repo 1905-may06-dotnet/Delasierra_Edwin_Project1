@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
@@ -123,3 +124,70 @@ namespace PizzaBox.Data
         };
     }
 }
+=======
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using PizzaBox.Domain;
+
+namespace PizzaBox.Data
+{
+    public static class Mapper
+    {
+        public static PizzaBox.Data.Model.Users Map(PizzaBox.Domain.User user)
+        {
+            PizzaBox.Data.Model.Users dataUser = new Model.Users();
+            dataUser.Username = user.Username;
+            dataUser.Password = user.Password;
+            return dataUser;
+        }
+        public static PizzaBox.Domain.User Map(PizzaBox.Data.Model.Users user) => new PizzaBox.Domain.User
+        {
+            Username = user.Username,
+            Password = user.Password
+        };
+
+        public static PizzaBox.Data.Model.Orders Map(PizzaBox.Domain.Order order)
+        {
+            PizzaBox.Data.Model.Orders dataOrder = new Model.Orders();
+            dataOrder.Id = order.id;
+            dataOrder.Locationid = order.locationId;
+            dataOrder.Ordertime = order.time;
+            dataOrder.User.Username = order.userId;
+            dataOrder.Totalcost = order.totalCost;
+            return dataOrder;
+        }
+        public static PizzaBox.Domain.Order Map(PizzaBox.Data.Model.Orders order) => new PizzaBox.Domain.Order
+        {
+            id = order.Id,
+            locationId = order.Locationid,
+            time = order.Ordertime,
+            userId = order.User.Username,
+            totalCost = order.Totalcost
+        };
+
+        public static PizzaBox.Data.Model.Location Map(PizzaBox.Domain.Location location)
+        {
+            PizzaBox.Data.Model.Location dataLocation = new Model.Location();
+            dataLocation.Id = location.locationID;
+            dataLocation.Name = location.name;
+            dataLocation.Street1 = location.street1;
+            dataLocation.Street2 = location.street2;
+            dataLocation.City = location.city;
+            dataLocation.State = location.state;
+            dataLocation.Zipcode = location.zipcode;
+            return dataLocation;
+        }
+        public static PizzaBox.Domain.Location Map(PizzaBox.Data.Model.Location location) => new PizzaBox.Domain.Location
+        {
+            locationID = location.Id,
+            name = location.Name,
+            street1 = location.Street1,
+            street2 = location.Street2,
+            city = location.City,
+            state = location.State,
+            zipcode = location.Zipcode
+        };
+    }
+}
+>>>>>>> 45643b0a3b5621839fd67967e451c1814b205e27

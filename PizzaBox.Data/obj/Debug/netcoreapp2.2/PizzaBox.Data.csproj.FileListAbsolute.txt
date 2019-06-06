@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Data\bin\Debug\netcoreapp2.2\PizzaBox.Data.deps.json
 C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Data\bin\Debug\netcoreapp2.2\PizzaBox.Data.runtimeconfig.json
 C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Data\bin\Debug\netcoreapp2.2\PizzaBox.Data.runtimeconfig.dev.json
@@ -12,3 +13,19 @@ C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Data\obj\Debug\
 C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Data\bin\Debug\netcoreapp2.2\PizzaBox.Domain.dll
 C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Data\bin\Debug\netcoreapp2.2\PizzaBox.Domain.pdb
 C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Data\obj\Debug\netcoreapp2.2\PizzaBox.Data.csproj.CopyComplete
+=======
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Data\bin\Debug\netcoreapp2.2\PizzaBox.Data.deps.json
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Data\bin\Debug\netcoreapp2.2\PizzaBox.Data.runtimeconfig.json
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Data\bin\Debug\netcoreapp2.2\PizzaBox.Data.runtimeconfig.dev.json
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Data\bin\Debug\netcoreapp2.2\PizzaBox.Data.dll
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Data\bin\Debug\netcoreapp2.2\PizzaBox.Data.pdb
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Data\obj\Debug\netcoreapp2.2\PizzaBox.Data.csproj.CoreCompileInputs.cache
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Data\obj\Debug\netcoreapp2.2\PizzaBox.Data.AssemblyInfoInputs.cache
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Data\obj\Debug\netcoreapp2.2\PizzaBox.Data.AssemblyInfo.cs
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Data\obj\Debug\netcoreapp2.2\PizzaBox.Data.dll
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Data\obj\Debug\netcoreapp2.2\PizzaBox.Data.pdb
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Data\obj\Debug\netcoreapp2.2\PizzaBox.Data.csprojAssemblyReference.cache
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Data\bin\Debug\netcoreapp2.2\PizzaBox.Domain.dll
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Data\bin\Debug\netcoreapp2.2\PizzaBox.Domain.pdb
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Data\obj\Debug\netcoreapp2.2\PizzaBox.Data.csproj.CopyComplete
+>>>>>>> 45643b0a3b5621839fd67967e451c1814b205e27

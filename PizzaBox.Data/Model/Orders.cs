@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 
@@ -21,3 +22,28 @@ namespace PizzaBox.Data.Model
         public virtual ICollection<PizzaOrder> PizzaOrder { get; set; }
     }
 }
+=======
+﻿using System;
+using System.Collections.Generic;
+
+namespace PizzaBox.Data.Model
+{
+    public partial class Orders
+    {
+        public Orders()
+        {
+            PizzaOrder = new HashSet<PizzaOrder>();
+        }
+
+        public int Id { get; set; }
+        public string Userid { get; set; }
+        public int Locationid { get; set; }
+        public decimal Totalcost { get; set; }
+        public DateTime Ordertime { get; set; }
+
+        public virtual Location Location { get; set; }
+        public virtual Users User { get; set; }
+        public virtual ICollection<PizzaOrder> PizzaOrder { get; set; }
+    }
+}
+>>>>>>> 45643b0a3b5621839fd67967e451c1814b205e27

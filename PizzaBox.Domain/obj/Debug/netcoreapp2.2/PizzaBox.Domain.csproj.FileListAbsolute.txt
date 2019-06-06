@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Domain\bin\Debug\netcoreapp2.2\PizzaBox.Domain.deps.json
 C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Domain\bin\Debug\netcoreapp2.2\PizzaBox.Domain.runtimeconfig.json
 C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Domain\bin\Debug\netcoreapp2.2\PizzaBox.Domain.runtimeconfig.dev.json
@@ -9,3 +10,16 @@ C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Domain\obj\Debu
 C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Domain\obj\Debug\netcoreapp2.2\PizzaBox.Domain.dll
 C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Domain\obj\Debug\netcoreapp2.2\PizzaBox.Domain.pdb
 C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Domain\obj\Debug\netcoreapp2.2\PizzaBox.Domain.csprojAssemblyReference.cache
+=======
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Domain\bin\Debug\netcoreapp2.2\PizzaBox.Domain.deps.json
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Domain\bin\Debug\netcoreapp2.2\PizzaBox.Domain.runtimeconfig.json
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Domain\bin\Debug\netcoreapp2.2\PizzaBox.Domain.runtimeconfig.dev.json
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Domain\bin\Debug\netcoreapp2.2\PizzaBox.Domain.dll
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Domain\bin\Debug\netcoreapp2.2\PizzaBox.Domain.pdb
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Domain\obj\Debug\netcoreapp2.2\PizzaBox.Domain.csproj.CoreCompileInputs.cache
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Domain\obj\Debug\netcoreapp2.2\PizzaBox.Domain.AssemblyInfoInputs.cache
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Domain\obj\Debug\netcoreapp2.2\PizzaBox.Domain.AssemblyInfo.cs
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Domain\obj\Debug\netcoreapp2.2\PizzaBox.Domain.dll
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Domain\obj\Debug\netcoreapp2.2\PizzaBox.Domain.pdb
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Domain\obj\Debug\netcoreapp2.2\PizzaBox.Domain.csprojAssemblyReference.cache
+>>>>>>> 45643b0a3b5621839fd67967e451c1814b205e27

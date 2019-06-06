@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Testing\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Testing\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Testing\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -12,3 +13,19 @@ C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Testing\obj\Deb
 C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Testing\obj\Debug\netcoreapp2.2\PizzaBox.Testing.AssemblyInfo.cs
 C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Testing\obj\Debug\netcoreapp2.2\PizzaBox.Testing.dll
 C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Testing\obj\Debug\netcoreapp2.2\PizzaBox.Testing.pdb
+=======
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Testing\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Testing\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Testing\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Testing\bin\Debug\netcoreapp2.2\PizzaBox.Testing.deps.json
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Testing\bin\Debug\netcoreapp2.2\PizzaBox.Testing.runtimeconfig.json
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Testing\bin\Debug\netcoreapp2.2\PizzaBox.Testing.runtimeconfig.dev.json
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Testing\bin\Debug\netcoreapp2.2\PizzaBox.Testing.dll
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Testing\bin\Debug\netcoreapp2.2\PizzaBox.Testing.pdb
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Testing\obj\Debug\netcoreapp2.2\PizzaBox.Testing.csprojAssemblyReference.cache
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Testing\obj\Debug\netcoreapp2.2\PizzaBox.Testing.csproj.CoreCompileInputs.cache
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Testing\obj\Debug\netcoreapp2.2\PizzaBox.Testing.AssemblyInfoInputs.cache
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Testing\obj\Debug\netcoreapp2.2\PizzaBox.Testing.AssemblyInfo.cs
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Testing\obj\Debug\netcoreapp2.2\PizzaBox.Testing.dll
+C:\Users\LDLS\Revature\training-code\01-CSharp\PizzaBox\PizzaBox.Testing\obj\Debug\netcoreapp2.2\PizzaBox.Testing.pdb
+>>>>>>> 45643b0a3b5621839fd67967e451c1814b205e27

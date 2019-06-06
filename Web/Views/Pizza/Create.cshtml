@@ -1,0 +1,36 @@
+﻿@model PizzaBox.Web.Models.Pizza
+@{
+    ViewData["Title"] = "Add Pizza";
+}
+
+<h4>Create New Pizza</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="size" class="control-label"></label>
+                <span style="color:red">*</span>
+                <input asp-for="size" class="form-control" />
+                <span asp-validation-for="size" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="crust" class="control-label"></label>
+                <span style="color:red">*</span>
+                <input asp-for="crust" class="form-control" />
+                <span asp-validation-for="crust" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Add to order" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
