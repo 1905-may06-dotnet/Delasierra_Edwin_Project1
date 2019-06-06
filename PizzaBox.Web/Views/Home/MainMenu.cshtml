@@ -1,0 +1,30 @@
+﻿@model User
+@using Microsoft.AspNetCore.Http;
+@using Microsoft.AspNetCore.Mvc;
+@{
+    ViewData["Title"] = "Main Menu";
+    //string username = HttpContext.Session["Username"] as string;
+    string username = TempData["Username"] as string;
+}
+
+
+    <p>Welcome, @username</p>
+
+    <div class="text-center">
+        <h1 class="display-4">Main Menu</h1>
+
+        <form action="Location/Select">
+            <input type="submit" value="Place Order" />
+        </form>
+        <p></p>
+        <form action="Order/Index">
+            <input type="submit" value="View Order History" />
+        </form>
+        <p></p>
+        <form action="Index">
+            <input type="submit" value="Logout" />
+        </form>
+    </div>
+    <div>
+        <a asp-action="Index">Show Locations</a>
+    </div>
